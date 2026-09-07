@@ -1,0 +1,14 @@
+ventas_registradas = 0
+
+
+def registrar_venta():
+    global ventas_registradas
+    ventas_registradas += 1
+    print("Venta registrada")
+
+
+registrar_venta()
+
+print("Total de ventas:", ventas_registradas)
+
+#Muestra Venta registrada 2 veces a la ora de arrancar el codigo, se elimina 1 registra_venta()
